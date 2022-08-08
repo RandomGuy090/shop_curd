@@ -11,4 +11,23 @@ This is really the first time when I've used knowledge from my school in "real w
 
 Database is made for some sort of book shop. (Unfortunately) schema and whole assigment was in polish and that's why i have written some objects in that language. I know it looks awful (especially when you understand this language) but I really wanted to transfer database from scratch to Django-ORM.
 
+# how to run?
+```bash
+git clone https://github.com/RandomGuy090/shop_curd
+cd shop_curd
 
+pip3 install -r requirements.txt
+python3 manage.py startserver
+
+```
+
+or if you prefer to user docker: 
+```bash
+git clone https://github.com/RandomGuy090/shop_curd
+cd shop_curd
+
+docker build --tag shop_curd .
+docker run -d -p 8000:8000 shop_curd
+# go to http://127.0.0.1:8000 
+
+```
