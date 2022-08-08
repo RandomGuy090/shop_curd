@@ -5,7 +5,7 @@ shop_curd is a curd (suprise) written in python django (django-rest-framework). 
 
 
 # Schema
-![](https://raw.githubusercontent.com/RandomGuy090/shop_curd/master/schema.png?token=GHSAT0AAAAAABXELSZR33E3NOKVBUNJKFT4YXQNO6A)
+![](![schema](https://user-images.githubusercontent.com/64653975/183323952-04297e1c-b06b-44fc-b50c-b6baf2fccd29.png))
 
 This is really the first time when I've used knowledge from my school in "real work". Project database schema is based on assigment which I got on my databases classes (so you can see db visualisation from MS Access above). I tried to be as accurate as I could/it was possible. 
 
